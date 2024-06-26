@@ -1,0 +1,84 @@
+/* Define a cor de fundo e a fonte padrão da página */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  color: #343a40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Estiliza o título principal */
+h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Define a largura, margem e padding dos grupos de entrada */
+.group {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estiliza os rótulos */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Estiliza os campos de entrada */
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estiliza o botão */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Altera a cor do botão quando o mouse passa sobre ele */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estiliza o título secundário */
+h2 {
+  margin-top: 30px;
+  color: #28a745;
+}
+
+/* Remove os estilos padrão da lista e define o espaçamento entre os itens */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+li {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
